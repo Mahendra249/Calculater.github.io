@@ -28,11 +28,11 @@
         screen.value= " ";
      })
 
-     backspace.addEventListener('click',function(e){
+      backspace.addEventListener('click',function(e){
             
             //   screen.value=screen.value.toString().slice(0,-1);
-           var calcvalue=screen.value ;
-           screen.value=calcvalue.toString().slice(0,-1);
+         
+           screen.value=screen.innerText.slice(0,-1);
           
      })
 
